@@ -3,8 +3,51 @@
 <head>
 <meta charset="UTF-8">
 <title></title>
+<link rel="stylesheet" href="mystyle.css">
+<link rel="stylesheet" href="imagechange.css">
 <script src="ex1.js"></script>
 </head>
 <body>
+  <h1><p class="sample9">後期期末課題</p></h1>
+      <table>
+    <caption>
+    <strong>自己紹介</strong>
+    <p class="sample1"></p>
+   </caption>
+    <thead>
+    <tr><th>名前</th>
+    <td>新井一晟</td></tr>
+    </thead>
+    <tbody>
+      <tr><th>好きなこと</th>
+      <td>ゲーム</a></td></tr>
+    <tr><th>学歴</th>
+    <td><a href="http://www.ichida.ed.jp/">市田小学校</a>→<a href="http://www.kumagaya-ohsato-j.ed.jp/">大里中学校</a><br>
+      →<a href="https://fukaya1-h.spec.ed.jp/">深谷第一高校</a>→<a href="https://www.josai.ac.jp/education/management/index.html">城西大学経営学部マネジメント総合学科</a></td>
+    </tbody>
+    </table>
+<br>
+<br>
+<input type="button" value="あいさつ" onclick="sayhello1();">
+<p>あなたの名前は？<input type="text" id="who1"></p>
+<br>
+<br>
+<h1>ポケモンの進化過程</h1>
+<div id="image1" >
+ 
+   <input type="button" value="進化"onclick="setTimeout('img()',3000)">
+<img src="image/kadai1.png" id="logo1" alt="pokemon1"class="imagechange">
+<input type="button" value="進化前" onclick="imgchange4();setTimeout('bthrees()',5000)">
+<br>
+</div>
+<p class="sample9"><h2>質問</h2></p>
+  <p class="sample9"><p>私が好きなポケモンは何でしょう<br></p>
+　　　＜ヒント＞シンオウ地方出身のドラゴンタイプのポケモン</p>
+  <p><br>
+  答(カタカナ5文字で):<input type="text" id="answer">
+  <input type="button" value="解答" onclick="nazo();">
+  </p>
+<p class="sample5"></p>
+<p class="sample5"></p>
 </body>
 </html>
